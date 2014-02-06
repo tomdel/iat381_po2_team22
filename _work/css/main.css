@@ -1,12 +1,25 @@
 /* Sneakerheadz style sheet */
 body {
+	margin-top: 0;
+	padding: 0;
+}
+
+header {
+	background-color: #000;
+	width: 100%;
+	height: 10%;
+	margin: 0 auto;
+	padding: 0;
+	border: 0;
 
 }
 
-nav {
+.masthead {
 	font-family: 'Oswald', sans-serif;
 	font-weight: 700;
 	font-size: 4rem;
+	text-align: center;
+	color: #fff;
 	}
 
 h1 {
@@ -18,9 +31,12 @@ h1 {
 p {
 	font-family: 'Exo', sans-serif;
 	font-weight: 300;
-	font-size: 1.2rem;
+	font-size: 0.8rem;
 }
 
+.bodyText {
+	width: 40rem;
+}
 .cartButton {
 	display: block;
 	float: left;
@@ -62,13 +78,16 @@ a {
 	margin:0;
 	padding-top: 2rem;
 	text-decoration: none;
+	width:800px; 
+	margin:0 auto;
 }
 
 #navbar li {
 	list-style-type: none;
 	font-family: 'Exo', sans-serif;
 	float: left; 
-	padding-right: 10%;
+	padding-left: 5%;
+	padding-right: 5%;
 	color: #000000;
 }
 
