@@ -1,17 +1,23 @@
 /* Sneakerheadz style sheet */
 body {
-	margin-top: 0;
-	padding: 0;
+	margin: 0;
+
+}
+
+#container {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	min-width: 960px;
 }
 
 header {
 	background-color: #000;
-	width: 100%;
 	height: 10%;
-	margin: 0 auto;
+	width: 100%;
+	margin: 0;
 	padding: 0;
 	border: 0;
-
 }
 
 .masthead {
@@ -69,7 +75,7 @@ a {
 	float: left;
 	clear: both;
 	width: 100%;
-	padding: 4rem;
+	padding: 2rem 4rem 4rem 4rem;
 	list-style: none; 
 }
 
