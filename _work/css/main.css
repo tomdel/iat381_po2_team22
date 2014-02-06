@@ -27,7 +27,7 @@ header {
 	font-size: 4rem;
 	text-align: center;
 	color: #fff;
-	}
+}
 
 h1 {
 	font-family: 'Exo', sans-serif;
@@ -76,7 +76,7 @@ a {
 	float: left;
 	clear: both;
 	width: 100%;
-	padding: 2rem 4rem 4rem 4rem;
+	padding: 0.2rem 4rem 4rem 4rem;
 	list-style: none; 
 }
 
